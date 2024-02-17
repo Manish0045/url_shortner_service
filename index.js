@@ -9,7 +9,7 @@ const globalRoutes = require('./routes/global');
 
 const app = express();
 const PORT = 2299;
-const dbUrl = "mongodb+srv://manishsahani345:<password>@cluster0.orwswxj.mongodb.net/<database>"
+const dbUrl = "mongodb+srv://<usernme>:<password>@cluster0.orwswxj.mongodb.net/<database>"
 
 app.set('view engine', 'ejs');
 app.set('views', path.resolve("./views"));
